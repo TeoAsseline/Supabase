@@ -11,6 +11,7 @@ const menuItems = computed(() => {
     return [
       { label: 'Home', to: '/' },
       { label: 'Instruments', to: '/instruments' },
+      { label: 'Profil', to: '/profil' },
       { label: 'Logout', to: '/logout' }
     ]
   } else {
