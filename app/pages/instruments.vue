@@ -9,8 +9,8 @@
     instruments.value = data
   }
 
-  onMounted(() => {
-    getInstruments()
+  onMounted(async () => {
+      getInstruments() 
   })
 
 </script>
